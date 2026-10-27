@@ -1,0 +1,62 @@
+{
+  "q2": {
+    "accuracy": 0.9736842105263158,
+    "precision": 1.0,
+    "recall": 0.9285714285714286,
+    "f1": 0.9629629629629628
+  },
+  "q3": [
+    {
+      "model": "baseline",
+      "epochs": 20,
+      "train_accuracy": 0.5578500032424927,
+      "validation_loss": 1.435008525848389,
+      "validation_accuracy": 0.5005999803543091,
+      "test_accuracy": 0.5033
+    },
+    {
+      "model": "dropout",
+      "epochs": 20,
+      "train_accuracy": 0.4581750035285949,
+      "validation_loss": 1.600521445274353,
+      "validation_accuracy": 0.4411999881267547,
+      "test_accuracy": 0.447
+    }
+  ],
+  "q4": [
+    {
+      "optimizer": "Adam",
+      "epochs": 72,
+      "validation_mse": 0.3023521602153778,
+      "MAE": 0.3655965999457817,
+      "MSE": 0.2911181459967237,
+      "RMSE": 0.5395536544188388,
+      "R2": 0.7778417647996259
+    },
+    {
+      "optimizer": "SGD",
+      "epochs": 56,
+      "validation_mse": 0.298801988363266,
+      "MAE": 0.3785593317148112,
+      "MSE": 0.2985210979667079,
+      "RMSE": 0.5463708428958375,
+      "R2": 0.7721924201347854
+    }
+  ],
+  "q5_selected": {
+    "width": 128,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "regularization": "none",
+    "epochs": 15,
+    "best_epoch": 14,
+    "stopped_early": false,
+    "train_loss": 0.027200492098927498,
+    "train_accuracy": 0.9943125247955322,
+    "validation_loss": 0.08628357201814651,
+    "validation_accuracy": 0.9746666550636292,
+    "test_loss": 0.07901221513748169,
+    "test_accuracy": 0.975600004196167
+  },
+  "q5_unique_runs": 11
+}

@@ -1,0 +1,31 @@
+feature,dtype,missing
+mean radius,float64,0
+mean texture,float64,0
+mean perimeter,float64,0
+mean area,float64,0
+mean smoothness,float64,0
+mean compactness,float64,0
+mean concavity,float64,0
+mean concave points,float64,0
+mean symmetry,float64,0
+mean fractal dimension,float64,0
+radius error,float64,0
+texture error,float64,0
+perimeter error,float64,0
+area error,float64,0
+smoothness error,float64,0
+compactness error,float64,0
+concavity error,float64,0
+concave points error,float64,0
+symmetry error,float64,0
+fractal dimension error,float64,0
+worst radius,float64,0
+worst texture,float64,0
+worst perimeter,float64,0
+worst area,float64,0
+worst smoothness,float64,0
+worst compactness,float64,0
+worst concavity,float64,0
+worst concave points,float64,0
+worst symmetry,float64,0
+worst fractal dimension,float64,0

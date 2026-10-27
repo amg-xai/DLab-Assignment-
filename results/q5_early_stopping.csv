@@ -1,0 +1,15 @@
+group,value,epochs,best_epoch,stopped_early
+neurons,16,15,15,False
+neurons,32,15,15,False
+neurons,64,15,15,False
+neurons,128,15,14,False
+learning_rate,0.001,15,15,False
+learning_rate,0.01,9,6,True
+learning_rate,0.1,5,2,True
+optimizer,SGD,15,15,False
+optimizer,RMSprop,15,15,False
+optimizer,Adam,15,15,False
+regularization,none,15,15,False
+regularization,dropout,15,15,False
+regularization,l2,15,15,False
+regularization,dropout+l2,15,15,False
